@@ -1,0 +1,24 @@
+# Environment variables — NEVER commit real API keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.egg-info/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Generated vector store (large binary files — regenerate via embed_chunks.py instead of committing)
+rag_pipeline/vector_store/*.faiss
+
+# Optional: keep results and eval_report.json since they're small and meaningful for the portfolio
+# (uncomment below if you'd rather regenerate them than commit them)
+# results/eval_report.json

@@ -1,0 +1,1172 @@
+[
+  {
+    "question_id": "q001",
+    "question": "What does the abbreviation LMS stand for in the context of the LMS update rule, and what is another name for this rule?",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "generated_answer": "The abbreviation LMS stands for \"least mean squares\". The LMS update rule is also known as the Widrow-Hoﬀ learning rule.",
+    "retrieved_chunk_ids": [
+      "chunk_001",
+      "chunk_034",
+      "chunk_002"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is fully supported by the context. The context explicitly states that 'LMS stands for \"least mean squares\"' and that 'the rule is called the LMS update rule ... and is also known as the Widrow-Hoﬀ learning rule.'"
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The answer fully and directly addresses the question by providing the meaning of the LMS abbreviation in the context of the LMS update rule and offering another name for this rule, which is the Widrow-Hoff learning rule."
+    }
+  },
+  {
+    "question_id": "q002",
+    "question": "Why does batch gradient descent on the cost function J for linear regression always converge to the global minimum (assuming the learning rate is not too large)?",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "generated_answer": "This is because J is a convex quadratic function.",
+    "retrieved_chunk_ids": [
+      "chunk_002",
+      "chunk_003",
+      "chunk_001"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer states that batch gradient descent on the cost function J for linear regression always converges to the global minimum because J is a convex quadratic function. This claim is directly supported by the context, which explicitly mentions that 'the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges (assuming the learning rate α is not too large) to the global minimum. Indeed, J is a convex quadratic function.'"
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by stating that the cost function J for linear regression is a convex quadratic function, which is a key property that guarantees convergence to the global minimum for batch gradient descent, given an appropriate learning rate."
+    }
+  },
+  {
+    "question_id": "q003",
+    "question": "In the context of locally weighted linear regression, how is a non-parametric learning algorithm defined, and how does it differ from a parametric learning algorithm?",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_032",
+      "chunk_002",
+      "chunk_021"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The provided context does not contain information about locally weighted linear regression or the definition of non-parametric and parametric learning algorithms in that specific context. The generated answer correctly refuses to provide an answer based on the given context, which does not cover the question asked."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is answerable, but the generated answer is a refusal, indicating a failure to provide relevant information. A correct response would have defined non-parametric learning algorithms, such as locally weighted linear regression, and compared them to parametric learning algorithms, explaining how they differ in terms of assumptions about the underlying data distribution and the complexity of the model."
+    }
+  },
+  {
+    "question_id": "q004",
+    "question": "What is the 'positive class' and 'negative class' in a binary classification problem, and what symbols are sometimes used to denote them?",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "generated_answer": "In a binary classification problem, the 'positive class' is denoted by the symbol \"1\" and the 'negative class' is denoted by the symbol \"0\".",
+    "retrieved_chunk_ids": [
+      "chunk_009",
+      "chunk_013",
+      "chunk_026"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is supported by the context, which states '0 is also called the negative class, and 1 the positive class' in the provided text, directly answering the question about the symbols used to denote the positive and negative classes in a binary classification problem."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by defining the 'positive class' and 'negative class' in a binary classification problem and provides the symbols used to denote them, fully meeting the user's query."
+    }
+  },
+  {
+    "question_id": "q005",
+    "question": "What does the principal of maximum likelihood prescribe for choosing the parameters θ given a probabilistic model?",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "generated_answer": "The principal of maximum likelihood says that we should choose θ so as to make the data as high probability as possible. I.e., we should choose θ to maximize L(θ).",
+    "retrieved_chunk_ids": [
+      "chunk_006",
+      "chunk_011",
+      "chunk_033"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes the context, which states that 'The principal of maximum likelihood says that we should choose θ so as to make the data as high probability as possible. I.e., we should choose θ to maximize L(θ).'"
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by explaining that the principle of maximum likelihood prescribes choosing parameters θ to maximize the likelihood of the data, which is the core concept of maximum likelihood estimation."
+    }
+  },
+  {
+    "question_id": "q006",
+    "question": "In the context of generative learning algorithms, what is the key conceptual difference between discriminative and generative learning algorithms in terms of what they model?",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "generated_answer": "Discriminative learning algorithms model p(y|x), the conditional distribution of y given x, whereas generative learning algorithms model p(x|y) (and p(y)), the distribution of x given y and the class prior p(y).",
+    "retrieved_chunk_ids": [
+      "chunk_021",
+      "chunk_041",
+      "chunk_022"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer correctly states the key conceptual difference between discriminative and generative learning algorithms, which is supported by the context. Discriminative learning algorithms are described as modeling p(y|x), while generative learning algorithms model p(x|y) and p(y), as explicitly mentioned in the provided context."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by clearly stating the key conceptual difference between discriminative and generative learning algorithms in terms of what they model, which is the conditional distribution they focus on."
+    }
+  },
+  {
+    "question_id": "q007",
+    "question": "What is the canonical parameter (also called the natural parameter) of a distribution in the exponential family?",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "generated_answer": "The natural parameter (also called the canonical parameter) of a distribution in the exponential family is denoted by η.",
+    "retrieved_chunk_ids": [
+      "chunk_017",
+      "chunk_018",
+      "chunk_020"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes the context, which states that 'ηis called the natural parameter (also called the canonical parameter) of the distribution' in the definition of the exponential family. This shows that the claim in the generated answer is fully supported by the provided context."
+    },
+    "relevance": {
+      "score": 3,
+      "reasoning": "The answer partially addresses the question by mentioning the term 'natural parameter' and its synonym 'canonical parameter', and provides the notation η. However, it does not fully address the question as it lacks a clear definition or explanation of what the canonical parameter is in the context of the exponential family."
+    }
+  },
+  {
+    "question_id": "q008",
+    "question": "In the context of modern neural networks, how does the 1-D convolution module (Conv1D-S) relate to a standard matrix multiplication?",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_046",
+      "chunk_043",
+      "chunk_056"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The provided context does not contain information about how the 1-D convolution module (Conv1D-S) relates to a standard matrix multiplication. The context discusses 2-D convolution, layer normalization, and other topics, but does not address the specific question about Conv1D-S and its relation to matrix multiplication. Therefore, the generated answer's refusal to provide an answer is correct, as the context does not contain the necessary information to answer the question."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is marked as answerable, yet the system refused to answer, indicating a failure to provide relevant information. A correct response should have attempted to explain the relationship between the 1-D convolution module (Conv1D-S) and standard matrix multiplication in the context of modern neural networks."
+    }
+  },
+  {
+    "question_id": "q009",
+    "question": "What are the two passes that make up the backpropagation algorithm for computing gradients in a neural network?",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_050",
+      "chunk_048",
+      "chunk_047"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The provided context does not explicitly mention the two passes that make up the backpropagation algorithm for computing gradients in a neural network. The context discusses the general strategy of backpropagation, the chain rule, and auto-differentiation, but it does not provide a clear answer to the question. Therefore, the generated answer's refusal to provide an answer is correct, as the context does not contain the specific information needed to answer the question."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is answerable, but the system failed to provide a relevant answer, instead giving a refusal. The backpropagation algorithm is a well-known concept in neural networks, and its composition of forward and backward passes is a fundamental aspect that should be addressed directly."
+    }
+  },
+  {
+    "question_id": "q010",
+    "question": "Write down the closed-form equation to find the value of θ that minimizes J(θ) in linear regression, also known as the normal equations solution.",
+    "question_type": "formula",
+    "difficulty": "easy",
+    "generated_answer": "θ = (XTX)−1XT⃗ y",
+    "retrieved_chunk_ids": [
+      "chunk_004",
+      "chunk_001",
+      "chunk_002"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is directly supported by the context. The equation θ = (XTX)−1XT⃗ y is explicitly derived in the context as the solution to the normal equations, which is the closed-form equation to find the value of θ that minimizes J(θ) in linear regression."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly provides the closed-form equation to find the value of θ that minimizes J(θ) in linear regression, which is the normal equations solution, θ = (XTX)−1XT⃗ y, fully addressing the question."
+    }
+  },
+  {
+    "question_id": "q011",
+    "question": "What is the formula for the logistic function (also called the sigmoid function) g(z), and what is its derivative g'(z) in terms of g(z)?",
+    "question_type": "formula",
+    "difficulty": "easy",
+    "generated_answer": "The formula for the logistic function (also called the sigmoid function) g(z) is:\n\ng(z) = 1 / (1 + e^(-z))\n\nThe derivative of the sigmoid function, g'(z), is:\n\ng'(z) = g(z)(1 - g(z))",
+    "retrieved_chunk_ids": [
+      "chunk_010",
+      "chunk_012",
+      "chunk_040"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes the formula for the logistic function g(z) and its derivative g'(z) from the provided context, which are g(z) = 1 / (1 + e^(-z)) and g'(z) = g(z)(1 - g(z)). Both of these formulas are explicitly mentioned in the context, making the generated answer fully grounded in the provided text."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer fully and directly addresses the question by providing the formula for the logistic function g(z) and its derivative g'(z) in terms of g(z), which is exactly what was asked."
+    }
+  },
+  {
+    "question_id": "q012",
+    "question": "What is the formula used to calculate the non-negative weights w(i) for a query point x in locally weighted linear regression?",
+    "question_type": "formula",
+    "difficulty": "easy",
+    "generated_answer": "w(i) = exp(−(x(i) −x)2/(2τ2))",
+    "retrieved_chunk_ids": [
+      "chunk_008",
+      "chunk_007",
+      "chunk_039"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes the formula for the weights w(i) from the provided context, which is w(i) = exp(−(x(i) −x)2/(2τ2)). This formula is explicitly mentioned in the context as a standard choice for the weights in locally weighted linear regression."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly provides the formula used to calculate the non-negative weights w(i) for a query point x in locally weighted linear regression, which is exactly what the question asked for."
+    }
+  },
+  {
+    "question_id": "q013",
+    "question": "What is the formula for the logistic loss function ℓ_logistic(t, y) for a logit t and a label y in {0, 1}?",
+    "question_type": "formula",
+    "difficulty": "medium",
+    "generated_answer": "ℓ_logistic(t, y) = −log(exp(ty)∑k j=1 exp(tj)).",
+    "retrieved_chunk_ids": [
+      "chunk_009",
+      "chunk_014",
+      "chunk_010"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is directly supported by the context, specifically equation (2.14) which defines the cross-entropy loss ℓce as −log(exp(ty)∑k j=1 exp(tj)). This equation matches the formula provided in the generated answer for the logistic loss function ℓ_logistic(t, y)."
+    },
+    "relevance": {
+      "score": 2,
+      "reasoning": "The generated answer does not correctly represent the logistic loss function. The correct formula for the logistic loss function is ℓ_logistic(t, y) = −[y * log(sigmoid(t)) + (1-y) * log(1-sigmoid(t))], where sigmoid(t) = 1 / (1 + exp(-t)). The provided formula seems to be related to the softmax function used in multi-class classification problems, not the logistic loss function for binary classification."
+    }
+  },
+  {
+    "question_id": "q014",
+    "question": "What is the formula for the conditional probability P(y = i | x; θ) in multi-class classification using the softmax distribution?",
+    "question_type": "formula",
+    "difficulty": "easy",
+    "generated_answer": "P(y = i |x; θ) = \nexp(¯hθ(x)i)\n∑k\ns=1 exp(¯hθ(x)s)\n, (7.5)",
+    "retrieved_chunk_ids": [
+      "chunk_033",
+      "chunk_013",
+      "chunk_028"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes equation (7.5) from the provided context, which defines the formula for the conditional probability P(y = i | x; θ) in multi-class classification using the softmax distribution. This equation is explicitly given in the context, making the generated answer fully grounded in the provided information."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly provides the formula for the conditional probability P(y = i | x; θ) in multi-class classification using the softmax distribution, fully addressing the question."
+    }
+  },
+  {
+    "question_id": "q015",
+    "question": "Write the general formula defining a class of distributions in the exponential family in terms of the natural parameter η, sufficient statistic T(y), and log partition function a(η).",
+    "question_type": "formula",
+    "difficulty": "easy",
+    "generated_answer": "p(y; η) = b(y) exp(ηTT(y) − a(η))",
+    "retrieved_chunk_ids": [
+      "chunk_017",
+      "chunk_020",
+      "chunk_018"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes the formula from the context, which defines the exponential family distributions in terms of the natural parameter η, sufficient statistic T(y), and log partition function a(η). The context explicitly states this formula as p(y; η) = b(y) exp(ηTT(y) − a(η)), making the generated answer fully grounded in the provided context."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by providing the general formula for the exponential family of distributions, correctly incorporating the natural parameter η, sufficient statistic T(y), and log partition function a(η)."
+    }
+  },
+  {
+    "question_id": "q016",
+    "question": "What is the formula for the Laplace smoothed parameter estimate φ_{j|y=1} in a Naive Bayes classifier (under the multivariate Bernoulli event model)?",
+    "question_type": "formula",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_030",
+      "chunk_028",
+      "chunk_031"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer correctly refuses to provide a formula because the specific formula for φ_{j|y=1} in the multivariate Bernoulli event model with Laplace smoothing is provided in the context as φj|y=1 = 1 + ∑n i=1 1{x(i) j = 1 ∧y(i) = 1} / 2 + ∑n i=1 1{y(i) = 1}, but the question asks for the formula in a Naive Bayes classifier under the multivariate Bernoulli event model. The provided context does contain the formula, making the refusal incorrect in the context of the information given, but given the strict format of the question, the answer should directly address the query with the information provided."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is answerable as indicated by 'Is Unanswerable: False', but the generated answer is a refusal, stating the topic is not covered, which is not helpful to the user and fails to address the valid question."
+    }
+  },
+  {
+    "question_id": "q017",
+    "question": "What is the update formula for the multidimensional generalization of Newton's method (Newton-Raphson method) for maximizing a log-likelihood function ℓ(θ)?",
+    "question_type": "formula",
+    "difficulty": "medium",
+    "generated_answer": "θ:= θ−H−1∇θℓ(θ).",
+    "retrieved_chunk_ids": [
+      "chunk_015",
+      "chunk_011",
+      "chunk_016"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is directly supported by the context. The context explicitly mentions the update formula for the multidimensional generalization of Newton's method (Newton-Raphson method) as θ:= θ−H−1∇θℓ(θ), where ∇θℓ(θ) is the vector of partial derivatives of ℓ(θ) with respect to the θi's and H is the Hessian matrix."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by providing the update formula for the multidimensional generalization of Newton's method, which is used for maximizing a log-likelihood function ℓ(θ). The formula θ:= θ−H−1∇θℓ(θ) is the correct formula, where H is the Hessian matrix of the log-likelihood function and ∇θℓ(θ) is the gradient of the log-likelihood function with respect to θ."
+    }
+  },
+  {
+    "question_id": "q018",
+    "question": "What is the mathematical formula for the GELU activation function in terms of the error function (erf)?",
+    "question_type": "formula",
+    "difficulty": "medium",
+    "generated_answer": "σ(z) = z\n2\n[\n1 + erf( z√\n2)\n]",
+    "retrieved_chunk_ids": [
+      "chunk_040",
+      "chunk_053",
+      "chunk_039"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is a direct quote from the context, specifically equation (7.27), which defines the GELU activation function in terms of the error function (erf)."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The answer directly provides the mathematical formula for the GELU activation function in terms of the error function (erf), fully addressing the question."
+    }
+  },
+  {
+    "question_id": "q019",
+    "question": "Compare Batch Gradient Descent and Stochastic Gradient Descent (SGD) in terms of their training data pass requirements per parameter step and their convergence behavior.",
+    "question_type": "comparative",
+    "difficulty": "medium",
+    "generated_answer": "Batch Gradient Descent: \n- Training data pass requirement per parameter step: The entire training set.\n- Convergence behavior: Always converges to the global minimum (assuming the learning rate α is not too large) because the optimization problem is convex quadratic.\n\nStochastic Gradient Descent (SGD):\n- Training data pass requirement per parameter step: A single training example.\n- Convergence behavior: May never \"converge\" to the minimum, and the parameters θ will keep oscillating around the minimum of J(θ); but in practice, most of the values near the minimum will be reasonably good approximations to the true minimum.",
+    "retrieved_chunk_ids": [
+      "chunk_003",
+      "chunk_034",
+      "chunk_002"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer accurately compares Batch Gradient Descent and Stochastic Gradient Descent in terms of their training data pass requirements per parameter step and their convergence behavior, with all claims directly supported by the provided context."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer fully and directly addresses the question by comparing Batch Gradient Descent and Stochastic Gradient Descent in terms of their training data pass requirements and convergence behavior, providing a clear and concise explanation of both algorithms."
+    }
+  },
+  {
+    "question_id": "q020",
+    "question": "Compare parametric and non-parametric learning algorithms in terms of how their model representations scale with the training set size.",
+    "question_type": "comparative",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_032",
+      "chunk_021",
+      "chunk_037"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The provided context does not contain information about how the model representations of parametric and non-parametric learning algorithms scale with the training set size, so the generated answer's refusal is correct."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is answerable, but the system failed to provide a relevant answer, instead giving a refusal. A correct response would have compared parametric and non-parametric learning algorithms in terms of model representation scalability with training set size."
+    }
+  },
+  {
+    "question_id": "q021",
+    "question": "Compare Newton's method and Gradient Descent for optimization in terms of their rate of convergence and computation costs per iteration.",
+    "question_type": "comparative",
+    "difficulty": "medium",
+    "generated_answer": "Newton's method typically enjoys faster convergence than gradient descent, and requires many fewer iterations to get very close to the minimum. However, one iteration of Newton's can be more expensive than one iteration of gradient descent, since it requires finding and inverting an d-by-d Hessian.",
+    "retrieved_chunk_ids": [
+      "chunk_016",
+      "chunk_034",
+      "chunk_015"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly paraphrases the provided context, which states that Newton's method has faster convergence than gradient descent but is more expensive per iteration due to the need to find and invert the Hessian."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The answer directly compares Newton's method and Gradient Descent in terms of their rate of convergence and computation costs per iteration, addressing all aspects of the question."
+    }
+  },
+  {
+    "question_id": "q022",
+    "question": "Compare Gaussian Discriminant Analysis (GDA) and Logistic Regression in terms of their modeling assumptions, data efficiency, and robustness.",
+    "question_type": "comparative",
+    "difficulty": "medium",
+    "generated_answer": "GDA makes stronger modeling assumptions, and is more data efficient (i.e., requires less training data to learn “well”) when the modeling assumptions are correct or at least approximately correct. \n\nLogistic regression makes weaker assumptions, and is significantly more robust to deviations from modeling assumptions.",
+    "retrieved_chunk_ids": [
+      "chunk_025",
+      "chunk_022",
+      "chunk_016"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes the context, which states that GDA makes stronger modeling assumptions and is more data efficient when these assumptions are correct, while logistic regression makes weaker assumptions and is more robust to deviations from these assumptions."
+    },
+    "relevance": {
+      "score": 4,
+      "reasoning": "The answer directly compares GDA and Logistic Regression in terms of modeling assumptions and data efficiency, and touches on robustness, but it could be more comprehensive in discussing all aspects of robustness and providing more detailed explanations."
+    }
+  },
+  {
+    "question_id": "q023",
+    "question": "Compare the Bernoulli event model and the Multinomial event model in the context of Naive Bayes text classification in terms of feature representation and word generation.",
+    "question_type": "comparative",
+    "difficulty": "hard",
+    "generated_answer": "In the context of Naive Bayes text classification, the Bernoulli event model and the Multinomial event model differ in their feature representation and word generation.\n\nThe Bernoulli event model uses a feature vector x whose length is equal to the number of words in the dictionary. If an email contains the j-th word of the dictionary, then xj = 1; otherwise, xj = 0. This means that the feature representation is binary (0 or 1).\n\nIn contrast, the Multinomial event model uses a feature vector (x1, x2, ..., x d) where xj is an integer taking values in {1,..., |V|}, where |V| is the size of the vocabulary (dictionary). This means that the feature representation is not binary, but rather an integer representing the identity of the j-th word in the email.\n\nIn terms of word generation, the Bernoulli event model assumes that the person sending the email runs through the dictionary, deciding whether to include each word j in that email independently and according to the probabilities p(xj = 1|y) = φj|y. In contrast, the Multinomial event model assumes that the words in the email are generated from a multinomial distribution, where the j-th word is chosen from the vocabulary according to the probabilities p(xj|y).",
+    "retrieved_chunk_ids": [
+      "chunk_026",
+      "chunk_031",
+      "chunk_030"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.6666666666666666,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 0.5
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer accurately describes the differences between the Bernoulli event model and the Multinomial event model in terms of feature representation and word generation, and all claims are supported by the provided context."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer fully and directly addresses the question, providing a clear comparison of the Bernoulli event model and the Multinomial event model in terms of feature representation and word generation in the context of Naive Bayes text classification."
+    }
+  },
+  {
+    "question_id": "q024",
+    "question": "Compare Sigmoid/Tanh activation functions with modern activation functions like ReLU, leaky ReLU, and GELU regarding the gradient vanishing problem.",
+    "question_type": "comparative",
+    "difficulty": "medium",
+    "generated_answer": "According to the provided material, Sigmoid and tanh are less and less used these days partly because their gradients vanish as z goes to both positive and negative infinity. In contrast, ReLU, leaky ReLU, and GELU still have gradients as the input goes to positive infinity.",
+    "retrieved_chunk_ids": [
+      "chunk_040",
+      "chunk_037",
+      "chunk_012"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is supported by the context, which states that 'Sigmoid and tanh are less and less used these days partly because their are bounded from both sides and the gradient of them vanishes as z goes to both positive and negative inﬁnity (whereas all the other activation functions still have gradients as the input goes to positive inﬁnity.)'. This directly supports the claim made in the generated answer."
+    },
+    "relevance": {
+      "score": 4,
+      "reasoning": "The answer directly addresses the question by comparing Sigmoid/Tanh activation functions with modern ones like ReLU, leaky ReLU, and GELU regarding the gradient vanishing problem. It correctly highlights the issue with Sigmoid and tanh functions and contrasts them with the modern alternatives. However, it could be more comprehensive by detailing the specific advantages of each modern function."
+    }
+  },
+  {
+    "question_id": "q025",
+    "question": "Compare the 1-D convolution module with shared parameters (Conv1D-S) and generic matrix multiplication in terms of computation time complexity and parameter count.",
+    "question_type": "comparative",
+    "difficulty": "hard",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_046",
+      "chunk_039",
+      "chunk_043"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The provided context does not contain information about the 1-D convolution module with shared parameters (Conv1D-S) or its comparison to generic matrix multiplication in terms of computation time complexity and parameter count, making the generated answer a correct refusal."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is answerable, but the system failed to provide a relevant answer, instead giving a refusal. A comparison between the 1-D convolution module with shared parameters and generic matrix multiplication in terms of computation time complexity and parameter count is a valid and answerable question."
+    }
+  },
+  {
+    "question_id": "q026",
+    "question": "Compare Gaussian Discriminant Analysis (GDA) and Naive Bayes in terms of the types of input features they are designed to handle.",
+    "question_type": "comparative",
+    "difficulty": "easy",
+    "generated_answer": "Gaussian Discriminant Analysis (GDA) is designed to handle continuous, real-valued vectors as input features. \n\nNaive Bayes is designed to handle discrete-valued features, but it can be generalized to handle features with values in {1,2,...,kj} by modeling p(xj|y) as multinomial rather than as Bernoulli.",
+    "retrieved_chunk_ids": [
+      "chunk_026",
+      "chunk_022",
+      "chunk_028"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer accurately reflects the information provided in the context, stating that GDA handles continuous, real-valued vectors and Naive Bayes handles discrete-valued features, with the possibility of generalization to multinomial distributions for features with multiple discrete values."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The answer directly compares GDA and Naive Bayes in terms of the types of input features they handle, stating that GDA is for continuous features and Naive Bayes is for discrete-valued features, providing a clear distinction between the two."
+    }
+  },
+  {
+    "question_id": "q027",
+    "question": "Compare a two-layer neural network with linear activation functions and one with non-linear activation functions in terms of representational capacity.",
+    "question_type": "comparative",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_038",
+      "chunk_042",
+      "chunk_037"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The provided context does not contain information that directly compares a two-layer neural network with linear activation functions and one with non-linear activation functions in terms of representational capacity, so the generated answer's refusal is correct."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is answerable, but the system failed to provide a relevant answer, instead giving a refusal. A correct response would have compared the representational capacities of two-layer neural networks with linear versus non-linear activation functions."
+    }
+  },
+  {
+    "question_id": "q028",
+    "question": "Explain how the mathematical definition of the gradient descent update rule leads to the positive sign in the LMS update rule θ_j := θ_j + α(y^{(i)} - h_θ(x^{(i)}))x_j^{(i)} starting from the negative derivative of a single training example's squared error.",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_001",
+      "chunk_002",
+      "chunk_011"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer correctly refuses to answer because the provided context does not contain a direct explanation of how the mathematical definition of the gradient descent update rule leads to the positive sign in the LMS update rule starting from the negative derivative of a single training example's squared error, although it does derive the LMS rule."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is answerable, but the system failed to provide a relevant answer, instead giving a refusal. A correct response would have explained how the gradient descent update rule leads to the positive sign in the LMS update rule."
+    }
+  },
+  {
+    "question_id": "q029",
+    "question": "Under what specific training set conditions will the design matrix X fail to yield a unique closed-form solution via the standard normal equation θ = (X^T * X)^-1 * X^T * y, and why?",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_004",
+      "chunk_032",
+      "chunk_024"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit_at_k": false,
+      "mrr": 0.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The provided context does not contain information about the specific training set conditions under which the design matrix X will fail to yield a unique closed-form solution via the standard normal equation."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The question is answerable, but the system failed to provide a relevant answer, instead giving a refusal. A correct response would have addressed the conditions under which the design matrix X fails to yield a unique solution, such as when X^T * X is not invertible due to linearly dependent columns in X."
+    }
+  },
+  {
+    "question_id": "q030",
+    "question": "Explain step-by-step why maximizing the log-likelihood ℓ(θ) of the target values under Gaussian noise assumptions leads to the minimization of the least-squares cost function J(θ), and why the variance σ^2 does not affect the final choice of θ.",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "generated_answer": "To explain why maximizing the log-likelihood ℓ(θ) of the target values under Gaussian noise assumptions leads to the minimization of the least-squares cost function J(θ), we follow the steps below:\n\n1. The log-likelihood function is given by:\nℓ(θ) = log L(θ) =\nn∑\ni=1\nlog 1√\n2πσ exp\n(\n−(y(i) −θTx(i))2\n2σ2\n)\n2. We can rewrite the log-likelihood function as:\nℓ(θ) = nlog 1√\n2πσ − 1\nσ2 ·1\n2\nn∑\ni=1\n(y(i) −θTx(i))2\n3. Maximizing ℓ(θ) is equivalent to minimizing the term:\n1\n2\nn∑\ni=1\n(y(i) −θTx(i))2\n4. This term is exactly the least-squares cost function J(θ), so maximizing ℓ(θ) leads to minimizing J(θ).\n\nTo explain why the variance σ^2 does not affect the final choice of θ, we note that the term σ^2 appears in the log-likelihood function as a constant factor, which does not depend on θ. When we maximize ℓ(θ), we are maximizing the term:\nn∑\ni=1\n(y(i) −θTx(i))2\nwhich does not depend on σ^2. Therefore, the final choice of θ does not depend on σ^2.",
+    "retrieved_chunk_ids": [
+      "chunk_011",
+      "chunk_020",
+      "chunk_006"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 0.5,
+      "hit_at_k": true,
+      "mrr": 0.3333333333333333
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer accurately explains why maximizing the log-likelihood ℓ(θ) leads to the minimization of the least-squares cost function J(θ) and why the variance σ^2 does not affect the final choice of θ, with all claims supported by the provided context."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer fully and directly addresses the question by providing a step-by-step explanation of how maximizing the log-likelihood leads to the minimization of the least-squares cost function and why the variance does not affect the final choice of θ, covering all aspects of the query."
+    }
+  },
+  {
+    "question_id": "q031",
+    "question": "Derive the derivative of the sigmoid function g(z) = 1 / (1 + e^-z) step-by-step, showing how the quotient or chain rule application simplifies to the product of g(z) and 1 - g(z).",
+    "question_type": "multi_hop",
+    "difficulty": "easy",
+    "generated_answer": "To derive the derivative of the sigmoid function g(z) = 1 / (1 + e^-z), we will apply the quotient rule.\n\ng(z) = 1 / (1 + e^-z)\n\nThe derivative of g(z) with respect to z is given by:\n\ng'(z) = d/dz [1 / (1 + e^-z)]\n\nUsing the quotient rule, we have:\n\ng'(z) = (d/dz [1]) / (1 + e^-z) - (1) / (1 + e^-z) * d/dz [1 + e^-z]\n\nSince d/dz [1] = 0, the first term vanishes.\n\ng'(z) = - (1) / (1 + e^-z) * d/dz [1 + e^-z]\n\nNow, let's find the derivative of 1 + e^-z with respect to z:\n\nd/dz [1 + e^-z] = d/dz [1] + d/dz [e^-z]\n= 0 - e^-z * d/dz [-z]\n= -e^-z * (-1)\n= e^-z\n\nNow, substitute this result back into the expression for g'(z):\n\ng'(z) = - (1) / (1 + e^-z) * e^-z\n\nTo simplify this expression, we can rewrite it as:\n\ng'(z) = - e^-z / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^-z / (e^z / e^z + e^-z)\n\nNow, we can cancel out the e^-z terms:\n\ng'(z) = - 1 / (e^z / e^z + e^-z)\n\nNow, let's rewrite the denominator as (e^z + e^-z) / e^z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (e^z + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) / e^z. This gives:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, we can rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (e^z + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, let's rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, we can rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, let's rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, we can rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, let's rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, we can rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, let's rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, we can rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, let's rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, we can rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, let's rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, we can rewrite the expression as:\n\ng'(z) = - e^z / (1 + e^-z)\n\nNow, let's rewrite the numerator as 1 / e^z. This gives:\n\ng'(z) = - 1 / (1 + e^-z)\n\nNow, let's rewrite the denominator as (1 + e^-z) = e^z / e^z + e^-z. This gives:\n\ng'(z) = - e^z / (e^z + e^-z)\n\nNow, let's rewrite the expression as:\n\ng'(z) = - e",
+    "retrieved_chunk_ids": [
+      "chunk_010",
+      "chunk_040",
+      "chunk_012"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "partially_grounded",
+      "reasoning": "The generated answer attempts to derive the derivative of the sigmoid function using the quotient rule, but it contains excessive and repetitive steps that are not supported by the context. However, the context does provide the correct derivative of the sigmoid function as g'(z) = g(z)(1 - g(z)), which is a key property of the sigmoid function."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The generated answer attempts to derive the derivative of the sigmoid function but gets stuck in an infinite loop of rewriting the expression without making progress towards the actual derivative or addressing how it simplifies to the product of g(z) and 1 - g(z), thus failing to directly answer the question."
+    }
+  },
+  {
+    "question_id": "q032",
+    "question": "Explain how expressing the Bernoulli distribution in the exponential family form mathematically reveals the connection between its natural parameter η and the logistic sigmoid function.",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "generated_answer": "The connection between the natural parameter η and the logistic sigmoid function is revealed in the following mathematical expression:\n\np(y; φ) = φy(1 −φ)1−y\n= exp( ylog φ+ (1 −y) log(1−φ))\n= exp\n((\nlog\n( φ\n1 −φ\n))\ny+ log(1 −φ)\n)\n\nHere, φ = 1/(1 + e−η). This is the familiar sigmoid function.",
+    "retrieved_chunk_ids": [
+      "chunk_017",
+      "chunk_020",
+      "chunk_010"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes and explains the provided context, specifically the mathematical expression that reveals the connection between the natural parameter η and the logistic sigmoid function, which is supported by the context."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by mathematically expressing the Bernoulli distribution in the exponential family form and explicitly showing the connection between the natural parameter η and the logistic sigmoid function through the equation φ = 1/(1 + e−η). This provides a clear and concise explanation of the relationship."
+    }
+  },
+  {
+    "question_id": "q033",
+    "question": "Explain how the scale-invariance property of the simplified LayerNorm (LN-S) mathematically leads to the scale invariance of the full LayerNorm (LN) under a positive scaling factor α, and what implication this has for modern deep learning architectures.",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_044",
+      "chunk_043",
+      "chunk_042"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer correctly refuses to provide an explanation, as the provided context does not contain a direct answer to the question about the implication of scale-invariance property for modern deep learning architectures beyond what is stated."
+    },
+    "relevance": {
+      "score": 1,
+      "reasoning": "The generated answer is a refusal to answer a question that is marked as answerable, indicating a failure to provide relevant information. This refusal does not address the question about the scale-invariance property of LayerNorm, making it completely irrelevant to the user's inquiry."
+    }
+  },
+  {
+    "question_id": "q034",
+    "question": "Using the definition of the cross-entropy loss ℓ_ce(t, y) = -log(exp(t_y) / ∑_j exp(t_j)) where t_j = θ_j^T * x, show how the partial derivative of this loss with respect to a single model parameter vector θ_i is derived using the chain rule.",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "generated_answer": "∂ℓce(t,y)\n∂ti\n= φi −1{y= i} (2.16)\nwhere φi = exp(ti)∑k\nj=1 exp(tj) and 1{y = i}= 1 if y = i, and 1{y = i}= 0 if y ̸= i.\n\nUsing the chain rule, we have that\n∂ℓce((θ⊤\n1 x,...,θ ⊤\nk x),y)\n∂θi\n= ∂ℓ(t,y)\n∂ti\n·∂ti\n∂θi\n= (φi −1{y= i}) ·x. (2.18)",
+    "retrieved_chunk_ids": [
+      "chunk_014",
+      "chunk_011",
+      "chunk_033"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer directly quotes and applies equations (2.16) and (2.18) from the context to derive the partial derivative of the cross-entropy loss with respect to a single model parameter vector θi, using the chain rule as described in the context."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by providing the partial derivative of the cross-entropy loss with respect to a single model parameter vector θ_i using the chain rule, and includes the necessary mathematical steps and notation to fully understand the derivation."
+    }
+  },
+  {
+    "question_id": "q035",
+    "question": "Explain GDA makes predictions using a decision boundary, how this decision boundary relates to the class probability p(y=1|x) = 0.5, and how the shape and orientation of the contours for the two classes in GDA are determined by their parameters.",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "generated_answer": "GDA makes predictions using a decision boundary. This decision boundary is related to the class probability p(y=1|x) = 0.5. \n\nThe decision boundary is a straight line that separates the elephants and dogs. On one side of the boundary, we'll predict y=1 to be the most likely outcome, and on the other side, we'll predict y=0.\n\nThe shape and orientation of the contours for the two classes in GDA are determined by their parameters, specifically the covariance matrix Σ. The contours are the same shape and orientation, since they share a covariance matrix Σ, but they have different means µ0 and µ1.",
+    "retrieved_chunk_ids": [
+      "chunk_022",
+      "chunk_021",
+      "chunk_024"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "hit_at_k": true,
+      "mrr": 0.3333333333333333
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is supported by the context, which explains how GDA makes predictions using a decision boundary and how the decision boundary relates to the class probability p(y=1|x) = 0.5. The context also describes how the shape and orientation of the contours for the two classes in GDA are determined by their parameters."
+    },
+    "relevance": {
+      "score": 4,
+      "reasoning": "The answer addresses the question by explaining how GDA makes predictions using a decision boundary and its relation to class probability. It also correctly states that the shape and orientation of contours are determined by the covariance matrix. However, the explanation could be more detailed and directly address the mathematical relationship between the decision boundary and p(y=1|x) = 0.5."
+    }
+  },
+  {
+    "question_id": "q036",
+    "question": "Explain why a naive implementation of the backward function for a vector-to-vector element-wise activation module M(z) = σ(z) seems to require O(m^2) computation time based on its Jacobian matrix representation, and show how the properties of the derivative reduce this time complexity to O(m).",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "generated_answer": "A naive implementation of the backward function for a vector-to-vector element-wise activation module M(z) = σ(z) seems to require O(m^2) computation time based on its Jacobian matrix representation because the Jacobian matrix ∂σ(z)/∂z is an m × m matrix, and multiplying this matrix by a vector v requires O(m^2) operations.\n\nHowever, the properties of the derivative reduce this time complexity to O(m) as shown in equation (7.69):\n\n∂σ(z1)\n∂zm\n··· ∂σ(zm)\n∂zm\n\nv (7.67)\n= diag(σ′(z1),··· ,σ′(zm))v (7.68)\n= σ′(z) ⊙v∈Rm. (7.69)\n\nThis shows that the backward function can be implemented in O(m) time by using the element-wise derivative σ′(z) and the element-wise product ⊙.",
+    "retrieved_chunk_ids": [
+      "chunk_053",
+      "chunk_052",
+      "chunk_050"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 0.5,
+      "hit_at_k": true,
+      "mrr": 1.0
+    },
+    "faithfulness": {
+      "label": "fully_grounded",
+      "reasoning": "The generated answer is supported by the context, specifically equations (7.67), (7.68), and (7.69), which show how the Jacobian matrix representation can be simplified to reduce the time complexity from O(m^2) to O(m)."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The generated answer directly addresses the question by explaining why a naive implementation of the backward function seems to require O(m^2) computation time and then shows how the properties of the derivative reduce this time complexity to O(m), providing a clear and concise explanation with relevant equations."
+    }
+  },
+  {
+    "question_id": "q037",
+    "question": "How does the Adam optimizer's update rule adjust the learning rate using both first and second moments of the gradients, and how is bias correction applied in the initial steps?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_002",
+      "chunk_001",
+      "chunk_034"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The generated answer correctly states that the information about the Adam optimizer's update rule is not covered in the provided context, which makes it an unanswerable question based on the given text."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The question is marked as unanswerable, and the system correctly refuses to provide an answer, which is the appropriate response in this case. The refusal directly addresses the situation by acknowledging the lack of information. This is a correct handling of an unanswerable question."
+    }
+  },
+  {
+    "question_id": "q038",
+    "question": "Explain how the dropout regularization technique modifies the forward and backward passes of a neural network during training, and how the weights are scaled at test time.",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_050",
+      "chunk_052",
+      "chunk_056"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The generated answer correctly states that the information about dropout regularization is not covered in the provided context, which makes it impossible to answer the question based on the given text."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The system correctly identifies that the question is unanswerable based on the provided material and declines to answer, which is the appropriate response in this scenario."
+    }
+  },
+  {
+    "question_id": "q039",
+    "question": "In deep reinforcement learning, how does the Deep Q-Network (DQN) algorithm stabilize training using an experience replay buffer and a target network?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_037",
+      "chunk_036",
+      "chunk_001"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The generated answer correctly states that the information about the Deep Q-Network (DQN) algorithm and its stabilization using an experience replay buffer and a target network is not covered in the provided context, which makes it an unanswerable question based on the given text."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The question is marked as unanswerable, and the generated answer correctly declines to provide an answer, which is the appropriate response in this case."
+    }
+  },
+  {
+    "question_id": "q040",
+    "question": "What is the mathematical formulation of the attention mechanism in Transformer models, specifically the scaled dot-product attention equation?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_043",
+      "chunk_039",
+      "chunk_037"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The generated answer correctly states that the information about the mathematical formulation of the attention mechanism in Transformer models is not covered in the provided material, which aligns with the context not containing the necessary information to answer the question."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The question is marked as unanswerable, and the generated answer correctly declines to provide an answer, which is the appropriate response in this case."
+    }
+  },
+  {
+    "question_id": "q041",
+    "question": "How does the K-Means clustering algorithm partition a dataset into K clusters, and what is its optimization objective function?",
+    "question_type": "unanswerable",
+    "difficulty": "easy",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_024",
+      "chunk_021",
+      "chunk_002"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The generated answer correctly states that the information about the K-Means clustering algorithm is not covered in the provided material, which is a faithful refusal to answer an unanswerable question."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The question is marked as unanswerable, and the generated answer correctly declines to provide an answer, which is the appropriate response in this case."
+    }
+  },
+  {
+    "question_id": "q042",
+    "question": "Explain how the support vector machine (SVM) optimization problem is formulated using Lagrange multipliers to find the optimal separating hyperplane in the dual space.",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_001",
+      "chunk_002",
+      "chunk_038"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The provided context does not contain information about support vector machines (SVM) or the formulation of the SVM optimization problem using Lagrange multipliers, so the generator correctly refuses to provide an answer."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The question is marked as unanswerable, and the generated answer correctly declines to provide an answer, which is the appropriate response in this case."
+    }
+  },
+  {
+    "question_id": "q043",
+    "question": "What are the mathematical equations for the forward and backward passes of a Long Short-Term Memory (LSTM) cell, and how do the gates prevent the vanishing gradient problem?",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_050",
+      "chunk_052",
+      "chunk_048"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The generated answer correctly states that the information about the mathematical equations for the forward and backward passes of an LSTM cell and how the gates prevent the vanishing gradient problem is not covered in the provided context, which makes it an unanswerable question based on the given text."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The system correctly identifies that the question is unanswerable based on the provided material and declines to answer, which is the appropriate response given the is_unanswerable flag is True."
+    }
+  },
+  {
+    "question_id": "q044",
+    "question": "How does the AdaBoost algorithm dynamically adjust training sample weights across successive iterations to combine weak classifiers into a strong ensemble?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_002",
+      "chunk_003",
+      "chunk_001"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The generated answer correctly states that the information about how the AdaBoost algorithm dynamically adjusts training sample weights is not covered in the provided context, which makes it an unanswerable question based on the given text."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The question is marked as unanswerable, and the generated answer correctly declines to provide an answer, which is the appropriate response in this case."
+    }
+  },
+  {
+    "question_id": "q045",
+    "question": "Explain how Principal Component Analysis (PCA) computes the eigenvectors of the data covariance matrix to project high-dimensional data into a lower-dimensional subspace.",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "generated_answer": "This is not covered in the provided material.",
+    "retrieved_chunk_ids": [
+      "chunk_022",
+      "chunk_039",
+      "chunk_056"
+    ],
+    "retrieval_metrics": {
+      "precision_at_k": null,
+      "recall_at_k": null,
+      "hit_at_k": null,
+      "mrr": null
+    },
+    "faithfulness": {
+      "label": "correct_refusal",
+      "reasoning": "The provided context does not contain information about Principal Component Analysis (PCA) or how it computes eigenvectors for projecting high-dimensional data into a lower-dimensional subspace, so the generator correctly refuses to provide an answer."
+    },
+    "relevance": {
+      "score": 5,
+      "reasoning": "The system correctly identifies that the question is unanswerable based on the provided material and declines to answer, which is the appropriate response in this scenario."
+    }
+  }
+]

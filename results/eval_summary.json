@@ -1,0 +1,196 @@
+{
+  "overall": {
+    "total_questions": 45,
+    "retrieval": {
+      "average_precision_at_3": 0.25925925925925924,
+      "average_recall_at_3": 0.7222222222222222,
+      "average_hit_at_3": 0.75,
+      "average_mrr": 0.699074074074074,
+      "count": 36
+    },
+    "faithfulness": {
+      "counts": {
+        "fully_grounded": 35,
+        "partially_grounded": 1,
+        "hallucinated": 0,
+        "incorrect_refusal": 0,
+        "correct_refusal": 9,
+        "incorrect_hallucination": 0
+      },
+      "percentages": {
+        "fully_grounded": 0.7777777777777778,
+        "partially_grounded": 0.022222222222222223,
+        "hallucinated": 0.0,
+        "incorrect_refusal": 0.0,
+        "correct_refusal": 0.2,
+        "incorrect_hallucination": 0.0
+      }
+    },
+    "relevance": {
+      "average_score": 3.8444444444444446,
+      "count": 45
+    }
+  },
+  "by_question_type": {
+    "comparative": {
+      "total_questions": 9,
+      "retrieval": {
+        "average_precision_at_3": 0.25925925925925924,
+        "average_recall_at_3": 0.6666666666666666,
+        "average_hit_at_3": 0.6666666666666666,
+        "average_mrr": 0.6111111111111112,
+        "count": 9
+      },
+      "faithfulness": {
+        "counts": {
+          "fully_grounded": 9,
+          "partially_grounded": 0,
+          "hallucinated": 0,
+          "incorrect_refusal": 0,
+          "correct_refusal": 0,
+          "incorrect_hallucination": 0
+        },
+        "percentages": {
+          "fully_grounded": 1.0,
+          "partially_grounded": 0.0,
+          "hallucinated": 0.0,
+          "incorrect_refusal": 0.0,
+          "correct_refusal": 0.0,
+          "incorrect_hallucination": 0.0
+        }
+      },
+      "relevance": {
+        "average_score": 3.4444444444444446,
+        "count": 9
+      }
+    },
+    "factual": {
+      "total_questions": 9,
+      "retrieval": {
+        "average_precision_at_3": 0.2222222222222222,
+        "average_recall_at_3": 0.6666666666666666,
+        "average_hit_at_3": 0.6666666666666666,
+        "average_mrr": 0.6666666666666666,
+        "count": 9
+      },
+      "faithfulness": {
+        "counts": {
+          "fully_grounded": 9,
+          "partially_grounded": 0,
+          "hallucinated": 0,
+          "incorrect_refusal": 0,
+          "correct_refusal": 0,
+          "incorrect_hallucination": 0
+        },
+        "percentages": {
+          "fully_grounded": 1.0,
+          "partially_grounded": 0.0,
+          "hallucinated": 0.0,
+          "incorrect_refusal": 0.0,
+          "correct_refusal": 0.0,
+          "incorrect_hallucination": 0.0
+        }
+      },
+      "relevance": {
+        "average_score": 3.4444444444444446,
+        "count": 9
+      }
+    },
+    "formula": {
+      "total_questions": 9,
+      "retrieval": {
+        "average_precision_at_3": 0.25925925925925924,
+        "average_recall_at_3": 0.7777777777777778,
+        "average_hit_at_3": 0.7777777777777778,
+        "average_mrr": 0.7777777777777778,
+        "count": 9
+      },
+      "faithfulness": {
+        "counts": {
+          "fully_grounded": 9,
+          "partially_grounded": 0,
+          "hallucinated": 0,
+          "incorrect_refusal": 0,
+          "correct_refusal": 0,
+          "incorrect_hallucination": 0
+        },
+        "percentages": {
+          "fully_grounded": 1.0,
+          "partially_grounded": 0.0,
+          "hallucinated": 0.0,
+          "incorrect_refusal": 0.0,
+          "correct_refusal": 0.0,
+          "incorrect_hallucination": 0.0
+        }
+      },
+      "relevance": {
+        "average_score": 4.222222222222222,
+        "count": 9
+      }
+    },
+    "multi_hop": {
+      "total_questions": 9,
+      "retrieval": {
+        "average_precision_at_3": 0.2962962962962963,
+        "average_recall_at_3": 0.7777777777777778,
+        "average_hit_at_3": 0.8888888888888888,
+        "average_mrr": 0.7407407407407407,
+        "count": 9
+      },
+      "faithfulness": {
+        "counts": {
+          "fully_grounded": 8,
+          "partially_grounded": 1,
+          "hallucinated": 0,
+          "incorrect_refusal": 0,
+          "correct_refusal": 0,
+          "incorrect_hallucination": 0
+        },
+        "percentages": {
+          "fully_grounded": 0.8888888888888888,
+          "partially_grounded": 0.1111111111111111,
+          "hallucinated": 0.0,
+          "incorrect_refusal": 0.0,
+          "correct_refusal": 0.0,
+          "incorrect_hallucination": 0.0
+        }
+      },
+      "relevance": {
+        "average_score": 3.111111111111111,
+        "count": 9
+      }
+    },
+    "unanswerable": {
+      "total_questions": 9,
+      "retrieval": {
+        "average_precision_at_3": null,
+        "average_recall_at_3": null,
+        "average_hit_at_3": null,
+        "average_mrr": null,
+        "count": 0
+      },
+      "faithfulness": {
+        "counts": {
+          "fully_grounded": 0,
+          "partially_grounded": 0,
+          "hallucinated": 0,
+          "incorrect_refusal": 0,
+          "correct_refusal": 9,
+          "incorrect_hallucination": 0
+        },
+        "percentages": {
+          "fully_grounded": 0.0,
+          "partially_grounded": 0.0,
+          "hallucinated": 0.0,
+          "incorrect_refusal": 0.0,
+          "correct_refusal": 1.0,
+          "incorrect_hallucination": 0.0
+        }
+      },
+      "relevance": {
+        "average_score": 5.0,
+        "count": 9
+      }
+    }
+  }
+}

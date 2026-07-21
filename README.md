@@ -141,7 +141,15 @@ python -m streamlit run dashboard/app.py
 ```
 *Access in browser at: `http://localhost:8501`*
 
-![Dashboard Overview Placeholder](docs/dashboard_preview.png)
+**Overview & Summary Metrics**
+<img width="1366" height="631" alt="Streamlit 01" src="https://github.com/user-attachments/assets/a634623d-11af-4d97-b0e7-875f1641a670" />
+
+
+**Failure Spotlight — Key Findings**
+<img width="1366" height="640" alt="Streamlit 03" src="https://github.com/user-attachments/assets/1f3a748a-2d3a-4818-b560-99ab3ede6909" />
+
+**Performance Breakdown by Question Type**
+<img width="1366" height="624" alt="Streamlit 02" src="https://github.com/user-attachments/assets/1f303bd1-e2af-41a2-acc9-aee1de4ebb41" />
 
 ---
 
